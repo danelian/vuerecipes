@@ -22,7 +22,6 @@
 import { ref, computed, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import store from "../store";
-import YouTubeButton from "../components/YouTubeButton.vue";
 import MealItem from "../components/MealItem.vue";
 
 const route = useRoute();
